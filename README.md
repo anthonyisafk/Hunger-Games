@@ -7,4 +7,27 @@
  2. Heuristic Player: They have a range *r = 2* in which they are able to see. Their moves are decided via simple position evaluation algorithms.
  3. MinMax Player: The range *r* they can see in is "infinite" (equal to the size of the board). Their moves are dictated by a MinMax tree, whose first level contains the available moves of the player and second level corresponds to the opponent's available moves after each "copy of a move" on the first level has taken place.
 
-![Moves](bin/mypackage/moves.png)
+A player loses point by stumbling on a trap and earns points by picking up pieces of food. Each itam, including weapons belong in their own area.
+
+Weapons are:
+- Pistols
+- Bows
+- Swords
+
+Traps are:
+- Ropes, which are avoided if a player has picked their sword up
+- Animals, which are avoided if a player has picked their bow up.
+
+
+## How it is played
+The user selects the type of Player 1 and Player 2 and presses **"Generate board"**, then **"Play"**.
+
+The players start from the bottom right corner and have to either kill their opponents or outscore them when the game ends. The game ends when:
+- Either player has a negative score
+- A player kills their opponent, provided they have picked up their pistol
+
+### Coordinates system
+The ***(0, 0)*** point is supposed to be the point where the middle 4 squares of the table meet.
+![Coordinates](bin/mypackage/coordinates.png)
+
+![What each integers means for how a player moves](bin/mypackage/moves.png)
