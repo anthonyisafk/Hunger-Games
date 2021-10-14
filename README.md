@@ -36,6 +36,10 @@ The ***(0, 0)*** point is supposed to be the point where the middle 4 squares of
 
 Throughout the execution of the program, the discrepancies of the Cartesian system of the 2-dimensional Java Array and the coordinates used are resolved with the simple x2i and y2j functions.
 
-
+Each individual move is given a unique *dice integer*, which works like this:
 
 ![What each integers means for how a player moves](bin/mypackage/moves.png)
+
+
+#### A version of the board game where the user is able to select their own moves is in the works. Feel free to make any contributions.
+### Copyright (C) Antonios Antoniou, Aristotle University of Thessaloniki
