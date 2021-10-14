@@ -24,10 +24,18 @@ The user selects the type of Player 1 and Player 2 and presses **"Generate board
 
 The players start from the bottom right corner and have to either kill their opponents or outscore them when the game ends. The game ends when:
 - Either player has a negative score
+- The board is reduced down to 4X4
 - A player kills their opponent, provided they have picked up their pistol
+
+The board is resized every 3 rounds, provided no player is stuck on the border of the board game.
 
 ### Coordinates system
 The ***(0, 0)*** point is supposed to be the point where the middle 4 squares of the table meet.
+
 ![Coordinates](bin/mypackage/coordinates.png)
+
+Throughout the execution of the program, the discrepancies of the Cartesian system of the 2-dimensional Java Array and the coordinates used are resolved with the simple x2i and y2j functions.
+
+
 
 ![What each integers means for how a player moves](bin/mypackage/moves.png)
