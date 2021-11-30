@@ -42,4 +42,5 @@ Each individual move is given a unique *dice integer*, which works like this:
 
 
 #### A version of the board game where the user is able to select their own moves is in the works. Feel free to make any contributions.
-### Antonios Antoniou, Aristotle University of Thessaloniki
+### Antonios Antoniou, Polydoros Giannouris
+### Aristotle University of Thessaloniki
